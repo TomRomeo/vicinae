@@ -23,7 +23,7 @@
   qt6,
   typescript,
   wayland,
-  hash ? "unknown",
+  hash,
 }:
 let
   src = ./.;
